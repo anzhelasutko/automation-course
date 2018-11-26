@@ -1,0 +1,15 @@
+package Collections;
+
+import java.util.*;
+
+public class TM {
+    public static void main(String[] args) {
+        TreeMap<Integer, String> tm = new TreeMap<>();
+        tm.put(1, "bmth");
+        tm.put(2, "top");
+        tm.put(3, "nbhd");
+        for (Map.Entry m : tm.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+    }
+}
